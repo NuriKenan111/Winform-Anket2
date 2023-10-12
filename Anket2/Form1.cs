@@ -30,9 +30,9 @@
 
             var personName = data.GetPerson().Select(x => x.Name).ToList();
             foreach (var item in personName)
-            {
                 listBox1.Items.Add(item);
-            }
+
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
